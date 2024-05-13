@@ -1,0 +1,41 @@
+//41c8189a API
+// import './App.css'
+// const Person = (Props) =>{
+//   return(
+//     <>
+//     <h1> Name : {Props.smia}</h1>
+//     <h2> B : {Props.B}</h2>
+//     <h2> A : {Props.A}</h2>
+//     </>
+//   )
+// } 
+
+// const App = () => {
+//   const name = 'paqueta'
+//   const bool = false;
+//   const [counter, setcounter] = useState(0);
+//   useEffect(() => {
+//     // alert('3awd')
+//   }, [counter])
+
+//   return (
+//       <div className='App'>
+//       <Person smia ='smia' B ='hola' A ='20'/>
+//       <Person smia ='knia' B ='bola' A ='200'/>
+//         {bool
+//         ?(
+//           <>
+//           <h1>{name}</h1>
+//           </>
+//         )
+//         :(
+//           <>
+//           <h1> -/ Counter -/</h1>
+//           </>
+//         )}
+//         <button onClick={()=> setcounter((prevcout) => prevcout + 1)}> +</button>
+//         <h1>{counter}</h1>
+//         <button onClick={()=> setcounter((prevcout) => prevcout - 1)}> -</button>
+//       </div>
+//   )
+// }
